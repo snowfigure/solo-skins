@@ -20,12 +20,13 @@
 <footer class="footer blog-footer">
     <div class="blog-text-center">
         ${footerContent}
-        &copy; ${year}
-        <a href="${servePath}">${blogTitle}</a>   &sdot;
-        苏ICP备14019371号-2   &sdot;
-        <a href="https://solo.b3log.org" target="_blank">Solo</a> ${version}    &sdot;
-        <a rel="friend" href="https://github.com/spiritree/typecho-theme-amaze" target="_blank"> Amaze</a>   &sdot;
-        <a rel="links" href="${servePath}/links.html"> ${linkLabel}</a>
+        <br/>
+        &copy 2013- ${year}
+        <a href="${servePath}">${blogTitle}</a>   All rights reserved.
+        <br/>
+            Powered by <a href="https://solo.b3log.org" target="_blank">Solo ${version}</a>
+            Theme by <a href="friend" href="https://github.com/snowfigure/solo-skins/tree/master/amaze-2.0" target="_blank"> Amaze-2.0</a>
+            <a hre="https://www.aliyun.com/" target="_blank"> aliyun </a>
     </div>
 </footer>
 <div class="icon-up" onclick="Util.goTop()"></div>
