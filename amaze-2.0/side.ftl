@@ -30,7 +30,7 @@
                     <div class="search-input">
                         <input type="text" name="keyword" placeholder="输入关键字搜索">
                         <button type="submit" class="search-submit"></button>
-                    <div>
+                    </div>
                 </form>
             </div>
         </section>

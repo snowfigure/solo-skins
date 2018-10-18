@@ -35,11 +35,11 @@
                 ${archiveLabel}
             </a>
           </li>
-          <!--li>
+          <li>
             <a rel="links" href="${servePath}/links.html">
               <i class="icon-link"></i> ${linkLabel}
             </a>
-          </li-->
+          </li>
           <#if isLoggedIn>
             <li>
               <a href="${servePath}/admin-index.do#main" title="${adminLabel}">
@@ -70,9 +70,7 @@
   </div>
   <!-- /.container -->
 </nav>
-<!--header class="intro-header" style="background-image: url('/skins/${skinDirName}/images/header.jpg')"-->
 <header class="intro-header" style="background-image: url('https://uploadbeta.com/api/pictures/random/?cached')">
-
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">

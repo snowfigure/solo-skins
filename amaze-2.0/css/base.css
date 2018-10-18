@@ -500,7 +500,6 @@ html {
 
 body {
     position: relative;
-    background: #fff;
     font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", "Droid Sans", "Source Han Sans", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;
     font-weight: normal;
     line-height: 1.6;
@@ -13973,13 +13972,18 @@ a:focus {
 }
 
 .blog-entry-article {
-    margin: 1rem 0 0;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #e5e5e5
+    margin: 0 0 3rem 0;
+    padding: 2rem 2rem 3rem;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #fafafa;
+
 }
 
 .blog-entry-text {
-    padding: 0 1rem
+    padding: 0 0 2rem;
+    border-bottom: 1px solid #fafafa;
 }
 
 .blog-entry-text h1 {
@@ -14896,7 +14900,7 @@ input::-webkit-input-placeholder {
     font-size: 24px;
     font-weight: 500;
     line-height: 33px;
-    margin-top: 15px !important;
+    margin-top: 25px !important;
 }
 
 @media only screen and (max-width: 767px) {
