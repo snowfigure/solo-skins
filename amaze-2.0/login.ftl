@@ -40,7 +40,7 @@
                     </a>
                 </div>
                 <div class="main">
-                        <h2>${loginLabel}</h2>
+                        <h2>Welcome to Login ${blogTitle}!</h2>
                         <div id="github" class="none"">
                             <div class="github__icon"
                                  onclick="window.location.href = '${servePath}/oauth/github/redirect';$('#github').addClass('github--loading')">
