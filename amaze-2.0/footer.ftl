@@ -25,8 +25,9 @@
         <a href="${servePath}">${blogTitle}</a>   All rights reserved.
         <br/>
             Powered by <a href="https://solo.b3log.org" target="_blank">Solo ${version}</a>
-            Theme by <a href="friend" href="https://github.com/snowfigure/solo-skins/tree/master/amaze-2.0" target="_blank"> Amaze-2.0</a>
-            <a hre="https://www.aliyun.com/" target="_blank"> aliyun </a>
+            <a href="https://www.aliyun.com/" target="_blank"> Aliyun </a> &nbsp;&nbsp;
+            Theme by <a href="https://github.com/snowfigure/solo-skins/tree/master/amaze-2.0" target="_blank"> Amaze-2.0</a>
+
     </div>
 </footer>
 <div class="icon-up" onclick="Util.goTop()"></div>
