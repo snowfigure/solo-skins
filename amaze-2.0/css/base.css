@@ -136,6 +136,7 @@ script {
    */
 
 a {
+    color: #0099CC;
     background-color: transparent;
 }
 
@@ -2905,7 +2906,7 @@ input[type="button"].am-btn-block {
    ============================================================================ */
 
 table {
-    max-width: 100%;
+    width:95%;
     background-color: transparent;
     border-color: #ccc;
     empty-cells: show;
@@ -2913,6 +2914,19 @@ table {
 
 table code {
     white-space: normal;
+}
+
+table  tr th {
+    background: #F3F3F3;
+    border: 1px solid #E6E6E6;
+    padding: 3px 5px;
+    word-break: normal;
+}
+
+table tr td {
+    border: 1px solid #E6E6E6;
+    padding: 3px 5px;
+    word-break: normal;
 }
 
 th {
@@ -13944,7 +13958,7 @@ tbody.am-collapse.am-in {
 }
 
 a {
-    color: #404040
+    color: #0099CC;
 }
 
 a:hover,
@@ -13972,18 +13986,18 @@ a:focus {
 }
 
 .blog-entry-article {
-    margin: 0 0 3rem 0;
-    padding: 2rem 2rem 3rem;
+    margin: 0 0 2rem 0;
+    padding: 2rem 2rem 2rem;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    border: 1px solid #fafafa;
+    border: 1px solid #ebebeb;
 
 }
 
 .blog-entry-text {
-    padding: 0 0 2rem;
-    border-bottom: 1px solid #fafafa;
+    padding: 0 0 1px;
+    /*border-bottom: 1px solid #fafafa;*/
 }
 
 .blog-entry-text h1 {
@@ -16335,7 +16349,7 @@ code {
 
 @media only screen and (min-width: 750px) {
     pre {
-        max-width: 80%;
+        max-width: 95%;
     }
 }
 

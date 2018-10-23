@@ -87,11 +87,35 @@
                                     ${article.articleSign.signHTML}
                                 </div>
                             </#if>
+
+
+                            <#if nextArticlePermalink?? || previousArticlePermalink??>
+                                <aside class="fn-clear">
+                                    <#if previousArticlePermalink??>
+
+                                    <a class="am-u-lg-6 am-u-sm-12 fn-left" rel="prev" href="${servePath}${previousArticlePermalink}">
+                                        <strong>&lt;</strong> ${previousArticleTitle}
+                                    </a>
+                                    <#else>
+                                    <div class="am-u-lg-6 am-u-sm-12 fn-left"></div>
+                                    </#if>
+
+                                    <#if nextArticlePermalink??>
+                                    <a class="am-u-lg-6 am-u-sm-12 fn-right"  style="text-align: right;" rel="next" href="${servePath}${nextArticlePermalink}">
+                                        ${nextArticleTitle} <strong>&gt;</strong>
+                                    </a>
+                                    <#else>
+                                        <div class="am-u-lg-6 am-u-sm-12 fn-right"></div>
+                                    </#if>
+                                </aside>
+                            </#if>
+
                         </div>
                     </article>
                     <hr>
                 </div>
             </div>
+
             <div class="comment-container">
                 <div class="comments-container-inner">
                     <@comments commentList=articleComments article=article></@comments>
