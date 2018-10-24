@@ -13961,6 +13961,9 @@ a {
     color: #0099CC;
 }
 
+.post-preview a, .sidebar-list a {
+    color:#404040;
+}
 a:hover,
 a:focus {
     color: #42b983

@@ -19,14 +19,70 @@
 -->
 <footer class="footer blog-footer">
     <div class="blog-text-center">
-        ${footerContent}
+        <div style="float: left; text-align: center; margin-left: 30px">
+            <span>
+                ${viewCount1Label}${statistic.statisticBlogViewCount}
+                &nbsp;
+                ${articleCount1Label}${statistic.statisticPublishedBlogArticleCount}
+                &nbsp;
+                ${commentCount1Label}${statistic.statisticPublishedBlogCommentCount}
+                &nbsp;
+                ${onlineVisitor1Label}${onlineVisitorCnt}
+            </span>
+            <br/>
+            <span>
+                &copy 2013- ${year} &nbsp; &nbsp;<a href="${servePath}">${blogTitle}</a>  &nbsp; All rights reserved.
+            </span>
+
+        </div>
+        <div style="float: right; text-align: center; margin-right: 20px">
+
+            <span>
+                ${footerContent}
+            </span>
+
+            <br/>
+            <span>
+                Run on
+                <a href="https://www.aliyun.com/" lang="托管于阿里云"  target="_blank" >
+                    <span class="iconfont icon-aliyun01" title="托管于阿里云"></span>
+                        Aliyun
+                </a>
+                &nbsp;&nbsp;
+
+                Storage in
+                <a href="https://portal.qiniu.com/signup" lang="存储于七牛云"  target="_blank">
+                    <span class="iconfont icon-qiniu1" title="存储于七牛云"></span>
+                    Qiniu
+                </a>
+                &nbsp;&nbsp;
+
+            </span>
+            <br/>
+            <span>
+
+                Powered by
+                <a href="https://solo.b3log.org" target="_blank">
+                    <span class="iconfont icon-github" title=" Theme by Amaze-2.0 on GitHub"></span>
+                    Solo ${version}
+                </a>
+                &nbsp;&nbsp;
+
+                Theme by
+                <a href="https://github.com/snowfigure/solo-skins/tree/master/amaze-2.0">
+
+                    <span class="iconfont icon-github" title=" Theme by Amaze-2.0 on GitHub"></span>
+                    Amaze-2.0
+                </a>
+                &nbsp;&nbsp;
+            </span>
+        </div>
+        <div style="clear: both"></div>
+
+
         <br/>
-        &copy 2013- ${year}
-        <a href="${servePath}">${blogTitle}</a>   All rights reserved.
-        <br/>
-            Powered by <a href="https://solo.b3log.org" target="_blank">Solo ${version}</a>
-            <a href="https://www.aliyun.com/" target="_blank"> Aliyun </a> &nbsp;&nbsp;
-            Theme by <a href="https://github.com/snowfigure/solo-skins/tree/master/amaze-2.0" target="_blank"> Amaze-2.0</a>
+
+
 
     </div>
 </footer>
