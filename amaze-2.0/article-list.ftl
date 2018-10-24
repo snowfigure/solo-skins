@@ -48,7 +48,7 @@
         <div class="clearfix topic-footer">
             <span class="pull-left time mobile_time">${article.articleCreateDate?string("yyyy-MM-dd")}&nbsp; | &nbsp;</span>
             <span class="tooltipped tooltipped-n" aria-label="${commentCountLabel}">
-                <i class="icon-comments"></i>
+                <!--i class="iconfont icon-comments"></i-->
                 <a href="${servePath}${article.articlePermalink}#comments">
                     ${article.articleCommentCount} ${commentLabel}
                 </a>
