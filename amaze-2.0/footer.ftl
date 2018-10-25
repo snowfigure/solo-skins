@@ -1,6 +1,6 @@
 <#--
 
-    Solo - A beautiful, simple, stable, fast Java blogging system.
+    Solo - A small and beautiful blogging system written in Java.
     Copyright (c) 2010-2018, b3log.org & hacpai.com
 
     This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,8 @@
 -->
 <footer class="footer blog-footer">
     <div class="blog-text-center">
-        <div style="float: left; text-align: center; margin-left: 30px">
+        <div style="float: left; text-align: left; margin-left: 30px">
+
             <span>
                 ${viewCount1Label}${statistic.statisticBlogViewCount}
                 &nbsp;
@@ -29,19 +30,42 @@
                 &nbsp;
                 ${onlineVisitor1Label}${onlineVisitorCnt}
             </span>
-            <br/>
-            <span>
-                &copy 2013- ${year} &nbsp; &nbsp;<a href="${servePath}">${blogTitle}</a>  &nbsp; All rights reserved.
-            </span>
+            <br/><br/>
+            <div class="am-u-lg-3" style="text-align: center;">
+                <img style="width: 90px; display:inline" src="https://img.791211.com//file/2018/10/b3f1a7ae76e54dfba3fab2dface6c237_image.png" alt="imagepng">
+                <br/>
+                <span  stype="text-align: center;"> Email </span>
+            </div>
+            <div class="am-u-lg-3" style="text-align: center;">
+                <img style="width: 90px; display:inline" src="https://img.791211.com//file/2018/10/f89c6bbfdae84dd49201230dcb253e5e_image.png" alt="imagepng">
+                <br/>
+                <span  stype="text-align: center;">微信 </span>
+            </div>
+            <div class="am-u-lg-3" style="text-align: center;">
+                <img style="width: 90px; display:inline" src="https://img.791211.com//file/2018/10/7a92ae0577ca41a6a960051f08f80755_image.png" alt="imagepng">
+                <br/>
+                <span  stype="text-align: center;">公众号 </span>
+            </div>
+            <div class="am-u-lg-3">
+            </div>
 
         </div>
         <div style="float: right; text-align: center; margin-right: 20px">
 
+
+
             <span>
-                ${footerContent}
+            ${footerContent}
             </span>
 
             <br/>
+            <span>
+                &copy 2013-${year}<a href="${servePath}">${blogTitle}</a>  All rights reserved.
+            </span>
+
+            <br/>
+            <br/>
+
             <span>
                 Run on
                 <a href="https://www.aliyun.com/" lang="托管于阿里云"  target="_blank" >
@@ -88,7 +112,7 @@
 </footer>
 <div class="icon-up" onclick="Util.goTop()"></div>
 
-<script type="text/javascript" src="${staticServePath}/js/lib/jquery/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="${cdnjQueryJS}" charset="utf-8"></script>
 <script type="text/javascript" src="${staticServePath}/js/common${miniPostfix}.js?${staticResourceVersion}" charset="utf-8"></script>
 <script type="text/javascript" src="${staticServePath}/skins/${skinDirName}/js/common${miniPostfix}.js?${staticResourceVersion}" charset="utf-8"></script>
 <script type="text/javascript">

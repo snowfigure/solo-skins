@@ -1,6 +1,6 @@
 <#--
 
-    Solo - A beautiful, simple, stable, fast Java blogging system.
+    Solo - A small and beautiful blogging system written in Java.
     Copyright (c) 2010-2018, b3log.org & hacpai.com
 
     This program is free software: you can redistribute it and/or modify
@@ -52,7 +52,7 @@
     <body>
         <#include "header-nav.ftl">
 
-        <header class="intro-header" style="background-image: url('${introHeaderBackgroundImgUrl}')">
+        <header class="intro-header" style="background-image: url('${bannerImageUrl}')">
             <div class="container">
                 <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">

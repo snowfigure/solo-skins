@@ -1,6 +1,6 @@
 <#--
 
-    Solo - A beautiful, simple, stable, fast Java blogging system.
+    Solo - A small and beautiful blogging system written in Java.
     Copyright (c) 2010-2018, b3log.org & hacpai.com
 
     This program is free software: you can redistribute it and/or modify
@@ -33,7 +33,7 @@
 <link rel="icon" type="image/png" href="${servePath}/favicon.png" />
 <link rel="manifest" href="${servePath}/manifest.json">
 <link rel="search" type="application/opensearchdescription+xml" title="${title}" href="/opensearch.xml">
-
+<link rel="stylesheet" href="${cdnIconfont}">
 
 ${htmlHead}
 </#macro>

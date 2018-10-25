@@ -1,6 +1,6 @@
 <#--
 
-    Solo - A beautiful, simple, stable, fast Java blogging system.
+    Solo - A small and beautiful blogging system written in Java.
     Copyright (c) 2010-2018, b3log.org & hacpai.com
 
     This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,7 @@
             <meta name="description" content="${metaDescription},${archiveLabel}"/>
         </@head>
         <link type="text/css" rel="stylesheet" href="${staticServePath}/skins/${skinDirName}/css/default-init${miniPostfix}.css" charset="utf-8"/>
-        <script type="text/javascript" src="${staticServePath}/js/lib/jquery/jquery.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="${cdnjQueryJS}" charset="utf-8"></script>
     </head>
     <body>
         <#include "header.ftl">
