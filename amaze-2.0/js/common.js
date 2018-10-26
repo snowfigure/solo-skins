@@ -37,11 +37,11 @@ var Skin = {
         this.initPage()
     },
     initPage: function () {
-        const $body = document.body;
-        const $toggle = document.querySelector(".navbar-toggle");
-        const $navbar = document.querySelector("#huxblog_navbar");
-        const $collapse = document.querySelector(".navbar-collapse");
-        const __HuxNav__ = {
+         $body = document.body;
+         $toggle = document.querySelector(".navbar-toggle");
+         $navbar = document.querySelector("#huxblog_navbar");
+         $collapse = document.querySelector(".navbar-collapse");
+         __HuxNav__ = {
             close: function () {
                 $navbar.className = " ";
                 setTimeout(function () {
