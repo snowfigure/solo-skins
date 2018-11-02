@@ -26,7 +26,7 @@
 <meta name="generator" content="Solo" />
 <meta name="owner" content="B3log Team" />
 <meta name="revised" content="${blogTitle?html}, ${year}" />
-<meta name="copyright" content="B3log" />
+<meta name="copyright" content="&copy 2013-${year} ${blogTitle}  All rights reserved." />
 <meta http-equiv="Window-target" content="_top" />
 <link type="text/css" rel="stylesheet" href="${staticServePath}/skins/${skinDirName}/css/base${miniPostfix}.css?${staticResourceVersion}" charset="utf-8" />
 <link href="${servePath}/blog-articles-rss.do" title="RSS" type="application/rss+xml" rel="alternate" />

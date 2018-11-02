@@ -32,17 +32,17 @@
             </span>
             <br/><br/>
             <div class="am-u-lg-3" style="text-align: center;">
-                <img style="width: 90px; display:inline" src="https://img.791211.com//file/2018/10/b3f1a7ae76e54dfba3fab2dface6c237_image.png" alt="imagepng">
+                <img style="width: 90px; display:inline" src="https://img.791211.com/file/2018/10/b3f1a7ae76e54dfba3fab2dface6c237_image.png" alt="imagepng">
                 <br/>
                 <span  stype="text-align: center;"> Email </span>
             </div>
             <div class="am-u-lg-3" style="text-align: center;">
-                <img style="width: 90px; display:inline" src="https://img.791211.com//file/2018/10/f89c6bbfdae84dd49201230dcb253e5e_image.png" alt="imagepng">
+                <img style="width: 90px; display:inline" src="https://img.791211.com/file/2018/10/f89c6bbfdae84dd49201230dcb253e5e_image.png" alt="imagepng">
                 <br/>
                 <span  stype="text-align: center;">微信 </span>
             </div>
             <div class="am-u-lg-3" style="text-align: center;">
-                <img style="width: 90px; display:inline" src="https://img.791211.com//file/2018/10/7a92ae0577ca41a6a960051f08f80755_image.png" alt="imagepng">
+                <img style="width: 90px; display:inline" src="https://img.791211.com/file/2018/10/7a92ae0577ca41a6a960051f08f80755_image.png" alt="imagepng">
                 <br/>
                 <span  stype="text-align: center;">公众号 </span>
             </div>
