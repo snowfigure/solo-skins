@@ -40,7 +40,7 @@
         </div>
         <div class="main">
             <h2>403 Forbidden!</h2>
-            <img class="img-error" src="${staticServePath}/images/403.png" alt="403" title="403 Forbidden!" />
+            <img class="img-error" src="${staticServePath}/skins/${skinDirName}/images/403.png" alt="403" title="403 Forbidden!" />
             <div class="a-error">
                 Please <a href="${loginURL}">Login</a> or return to <a href="${servePath}">Index</a>.
             </div>

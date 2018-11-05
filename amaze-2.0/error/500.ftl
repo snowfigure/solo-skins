@@ -40,7 +40,7 @@
         </div>
         <div class="main">
             <h2>500 Internal Server Error!</h2>
-            <img class="img-error" src="${staticServePath}/images/500.png" alt="500" title="500 Internal Server Error!" />
+            <img class="img-error" src="${staticServePath}/skins/${skinDirName}/images/500.png" alt="500" title="500 Internal Server Error!" />
             <div class="a-error">
                 Please <a href="${loginURL}">Login</a> or return to <a href="${servePath}">Index</a>.
             </div>

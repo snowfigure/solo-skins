@@ -22,8 +22,9 @@
 <html>
     <head>
        <@head title="${blogTitle}">
-           <meta name="keywords" content="${metaKeywords},${archiveLabel}"/>
-            <meta name="description" content="${metaDescription},${archiveLabel}"/>
+
+           <meta name="keywords" content="${metaKeywords},<#if archiveLabel??>${archiveLabel} - </#if>"/>
+            <meta name="description" content="${metaDescription},<#if archiveLabel??>${archiveLabel} - </#if>"/>
         </@head>
         <link type="text/css" rel="stylesheet" href="${staticServePath}/skins/${skinDirName}/css/default-init${miniPostfix}.css" charset="utf-8"/>
         <script type="text/javascript" src="${cdnjQueryJS}" charset="utf-8"></script>

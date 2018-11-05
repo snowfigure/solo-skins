@@ -40,7 +40,7 @@
         </div>
         <div class="main">
             <h2>404 Not Found!</h2>
-            <img class="img-error" src="${staticServePath}/images/404.jpg" alt="404" title="404 Not Found!" />
+            <img class="img-error" src="${staticServePath}/skins/${skinDirName}/images/404.jpg" alt="404" title="404 Not Found!" />
             <div class="a-error">
                 Please <a href="${loginURL}">Login</a> or return to <a href="${servePath}">Index</a>.
             </div>
