@@ -58,7 +58,7 @@
         <section>
             <div class="sidebar-header">
                 <span class="sidebar-header-title">
-                    分类标签
+                    ${allTagsLabel}
                 </span>
             </div>
             <div class="tags ">
@@ -69,6 +69,33 @@
                             ${tag.tagTitle}</a>
                 </#list>
             </div>
+        </section>
+        </#if>
+
+        <#if 0 != archiveDates?size>
+        <section>
+            <div class="sidebar-header">
+                <span class="sidebar-header-title">
+                    ${archiveLabel}
+                </span>
+            </div>
+            <main class="sidebar-lists">
+                <ul>
+                    <#list archiveDates as archiveDate>
+                        <li>
+                            <#if "en" == localeString?substring(0, 2)>
+                                <a href="${servePath}/archives/${archiveDate.archiveDateYear}/${archiveDate.archiveDateMonth}"
+                                   title="${archiveDate.monthName} ${archiveDate.archiveDateYear}(${archiveDate.archiveDatePublishedArticleCount})">
+                                    ${archiveDate.monthName} ${archiveDate.archiveDateYear}(${archiveDate.archiveDatePublishedArticleCount})</a>
+                            <#else>
+                                <a href="${servePath}/archives/${archiveDate.archiveDateYear}/${archiveDate.archiveDateMonth}"
+                                    title="${archiveDate.archiveDateYear} ${yearLabel} ${archiveDate.archiveDateMonth} ${monthLabel}(${archiveDate.archiveDatePublishedArticleCount})">
+                                    ${archiveDate.archiveDateYear} ${yearLabel} ${archiveDate.archiveDateMonth} ${monthLabel}(${archiveDate.archiveDatePublishedArticleCount})</a>
+                            </#if>
+                        </li>
+                    </#list>
+                </ul>
+            </main>
         </section>
         </#if>
 
@@ -98,7 +125,7 @@
         <section>
             <div class="sidebar-header">
                 <span class="sidebar-header-title">
-                    评论最多的文章
+                    ${mostCommentArticlesLabel}
                 </span>
             </div>
             <main class="sidebar-lists">
@@ -121,7 +148,7 @@
          <section>
             <div class="sidebar-header">
                 <span class="sidebar-header-title">
-                    访问最多的文章
+                    ${mostViewCountArticlesLabel}
                 </span>
             </div>
             <main class="sidebar-lists">
@@ -139,5 +166,42 @@
             </main>
         </section>
         </#if>
+
+
+        <#if 0 != recentComments?size>
+        <!--section>
+            <div class="sidebar-header">
+                <span class="sidebar-header-title">
+                    ${dynamicLabel}
+                </span>
+            </div>
+        <ul class="comments" id="comments">
+            <#list recentComments as comment>
+                <li id="${comment.oId}">
+                    <div>
+                        <div class="avatar tooltipped tooltipped-n" aria-label="${comment.commentName}"
+                             style="background-image: url(${comment.commentThumbnailURL})"></div>
+                        <main>
+                            <div class="fn-clear">
+                                <#if "http://" == comment.commentURL>
+                                    ${comment.commentName}
+                                <#else>
+                                        <a class="user-name" href="${comment.commentURL}" target="_blank">${comment.commentName}</a>
+                                </#if>
+                                <time class="ft-gray">${comment.commentDate?string("yyyy-MM-dd HH:mm")}</time>
+                                <a class="reply-btn" href="${servePath}${comment.commentSharpURL}">${viewLabel}»</a>
+                            </div>
+                            <div class="content-reset">
+                                ${comment.commentContent}
+                            </div>
+                        </main>
+                    </div>
+                </li>
+            </#list>
+        </ul>
+        </section-->
+        </#if>
+
+
     </section>
 </div>
