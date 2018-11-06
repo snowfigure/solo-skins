@@ -1,4 +1,10 @@
-# solo-skin-amaze.snowfigure
-blog solo's skin - amaze
 
-[preview](https://www.791211.com/)
+## 前言
+
+> Solo 博客系统是一个很赞的博客系统，感谢D大以及其团队的无私开源。
+
+ 在使用Solo博客系统的Skin皮肤组件中，amaze的皮肤组件刚开始用起来还是挺不错的，但是长时间时候后发现有一些问题，问题如下：
+ 
+
+   《[Solo皮肤 amaze魔改过程](https://www.791211.com/articles/2018/10/23/1540286857526.html)》
+
