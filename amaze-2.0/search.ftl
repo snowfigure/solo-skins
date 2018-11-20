@@ -31,12 +31,12 @@
     <div class="am-g am-g-fixed blog-fixed search-btn">
         <div class=""></div>
         <div class="sidebar-search" style="margin: 3rem 0 5rem; padding: 1rem 4rem">
-            <form action="${servePath}/search">
+            <!--form action="${servePath}/search"-->
                 <div class="search-input">
                     <input value="${keyword}" id="keyword" onkeypress="if(event.keyCode===13){document.getElementById('searchBtn').click()}">
                     <button id="searchBtn" class="search-submit"  onclick="window.location.href='${servePath}/search?keyword=' + document.getElementById('keyword').value"></button>
                 </div>
-            </form>
+            <!--/form-->
         </div>
     </div>
     <div class="am-g am-g-fixed blog-fixed">
