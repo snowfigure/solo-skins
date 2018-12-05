@@ -19,6 +19,7 @@
 -->
 <#include "macro-head.ftl">
 <#include "macro-comments.ftl">
+<@compress single_line=true>
 <!DOCTYPE html>
 <html>
     <head>
@@ -82,7 +83,34 @@
                     <article class="am-article blog-article-p article-trigger">
                         <div id="post-content" class="am-article-bd article-body">
                             ${article.articleContent}
+
+                            <div>
+                                <br>
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td>作者：<a href="${servePath}" target="_blank"> ${article.authorName} </a></td>
+                                        <td>出处：<a href="${servePath}${article.articlePermalink}" target="_blank">${article.articleTitle}</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">本文发布于 <a  href="${servePath}" target="_blank">${blogTitle}</a> ，欢迎转载，但未经作者同意请保留此声明，并在文章页面明显位置给出原文连接。            </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" style="display: inline-block;background: url('https://i.creativecommons.org/l/by-sa/4.0/80x15.png') center no-repeat;width: 80px;height: 16px;vertical-align: middle;" target="_blank"></a> 本作品采用
+                                            <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" target="_blank">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" style="text-align: center;"> ${blogSubtitle} </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <br>
+                            </div>
+
                             <#if "" != article.articleSign.signHTML?trim>
+
                                 <div>
                                     ${article.articleSign.signHTML}
                                 </div>
@@ -139,3 +167,5 @@
         </@comment_script>    
     </body>
 </html>
+
+</@compress>
