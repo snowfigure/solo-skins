@@ -26,6 +26,7 @@
                 </span>
             </div>
             <div class="sidebar-search">
+                <!--div id="bdcs"></div-->
                 <form action="${servePath}/search">
                     <div class="search-input">
                         <input type="text" name="keyword" placeholder="输入关键字搜索">

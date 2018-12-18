@@ -19,7 +19,6 @@
 -->
 <#include "macro-head.ftl">
 <#include "macro-comments.ftl">
-<@compress single_line=true>
 <!DOCTYPE html>
 <html>
     <head>
@@ -167,5 +166,3 @@
         </@comment_script>    
     </body>
 </html>
-
-</@compress>
